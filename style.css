@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:#fff;
+}
+input{
+    width:100%
+}
+
+
+.btn{
+    width:4rem;
+    height:2rem;
+    margin: 0.5rem 0;
+    background: #f9f9f9;
+    color:#000;
+    /* border-radius: 15rem; */
+    color:#f9f9f9;
+    font-size: 1rem;
+}
+.btn-open{
+    background: #5cb85c;
+    width: 30%;
+
+}
+.btn-close{
+    width:100%;
+    background: #d9534f;
+    
+}
+.inline{
+    display:inline;
+}
+.container{
+    background: #5bc0de;
+    height: 70vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.weather{
+    background: #428bca;
+    height: 40vh;
+    width: 100vw;
+    display:flex;
+}
+ #card {
+    background: #fff;
+    margin:auto auto;
+    border: solid black 2px;
+    padding: 1rem;
+    width:45%;
+    /* height: 45%; */
+    
+}
+
+ #change-location{
+    background: #f9f9f9;
+    height: 25vh;
+    margin:1rem;
+    padding:1rem;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    width: 35vw;
+    display: none; 
+    z-index: 1;
+} 
+#change-location input{
+    margin:0.5rem 0;
+}

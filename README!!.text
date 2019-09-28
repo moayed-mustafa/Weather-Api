@@ -1,0 +1,12 @@
+This app was a part of Brad Traversy
+course Javascript from the begining,
+section 9 Api projects, Brad was using the weatherunderground api
+which is no longer free, He also
+used bootstrap for his ui styling,
+I decided to do the app on my own since the api isn't working,
+I used openweathermap.org api and created this without going back to Brad's work,
+I just reverted to his storage class to see his way of doing 
+it and ended up using the same methods.
+I also added some weather icons from font awesome
+since the api doesn't provide icons,
+I know the icons are not extensive at the moment but that what I was able to achieve without a pro membership
